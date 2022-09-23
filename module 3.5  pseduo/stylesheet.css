@@ -1,0 +1,31 @@
+/*.bd{
+    color: aqua;
+}
+.bd:hover{ color: brown;
+font-size: large;}
+.pakistan{ color: cadetblue;}
+.pakistan:hover{ color: chartreuse;
+background-color: rgb(32, 180, 143);}
+#turkey{ color: rgb(190, 41, 41);}
+#turkey:hover{ color: darkblue;
+text-decoration: dotted;}
+input:focus{ font-size: 30px;
+color: aquamarine;
+font-style: italic;}
+li:first-child{ color: cornflowerblue;}
+li:nth-child(2n+1){
+    background-color: rgb(216, 203, 17);}
+a:visited{ color: brown;}
+button:hover{ background-color: rgb(26, 118, 134);
+font-size: 30px;}*/
+
+h1::before{ content: "hey!";
+color: aquamarine;}
+h1::after{ content: "bye!";
+color: bisque;}
+
+1.css over flow ki 
+2.css  media qureey
+3.css animation
+4.tranjision css3
+5. css selector / advance css selector 
