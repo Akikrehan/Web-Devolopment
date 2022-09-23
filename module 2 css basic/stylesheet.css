@@ -1,0 +1,31 @@
+/*
+h1{ color: #0000ff;}
+h2{ background-color: red;
+    height: 30px;
+     width: 90px;}
+ img{ height: 150px;
+      width: 150px;}
+ p{ font-size: 30px;
+     font-weight: 600;
+     color: rgb(141, 93, 20);
+     font-family: Verdana, Geneva, Tahoma, sans-serif ;}
+ #habibi{ background-color: aqua;}
+ .black{ background-color: rgb(133, 28, 182);}
+ h2.black{ background-color: bisque;}
+ span{ background-color: rgb(99, 29, 29);}
+ .yo{ background-color: aquamarine;}
+ h3{ color: #b0d137;}
+ ul{ color: #ffae00;}
+ */   
+
+
+.yo{ border: 5px solid red;
+   border-radius: 30px;
+   margin: 100px 20px;
+   padding: 20px 30px;
+   width: 300px;
+   height: 300px;
+   text-align: center;
+    text-align: justify;
+    display: inline-block;
+   }
