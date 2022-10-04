@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        @keyframes bouncing {
+            0%{ left: 0%;
+                top: 0px;}
+           25%{ left: 25%;
+                 top: 100px;
+                 background-color:  rgb(206, 99, 0)}
+            50%{ left: 50%;
+                    top:0px;
+                background-color:rgb(209, 79, 4);}
+           75%{left: 75%;
+                top: 100px;
+                background-color:rgb(240, 76, 0);}
+            100%{ left: 100%;
+                 top: 0px;
+                background-color:rgb(240, 36, 0);}
+
+            
+        }
+        .ball{ height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                background-color: rgb(228, 146, 52);
+                position: absolute;}
+        .stage{ background-color: aquamarine;
+                height: 200px;
+                width: 100%;
+                }
+        .stage:hover .ball{ 
+             animation: bouncing 5s ease-in 1s infinite alternate ;
+        }
+    </style>
+</head>
+<body>
+    <div class="stage">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>

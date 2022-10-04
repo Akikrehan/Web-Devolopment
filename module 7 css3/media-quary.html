@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media-quary</title>
+    <style>
+        .container{ display: flex;
+                    max-width: 1200px;
+                    margin: 0px auto;
+                    flex-direction: row;
+                   /* flex-wrap: wrap;*/
+                }
+        .food{ 
+            border: 3px solid lightgray;
+            margin: 30px;
+            border-radius: 30px;
+            width:300px ;
+        }
+        .food img{ width: 100%;}
+        @media (max-width:768px) {
+            .container{ flex-direction: column;}
+            .container .food{
+                background-color: brown;
+            }
+        }
+        @media (min-width:1200px) {
+            .container .food{ background-color: aquamarine;}
+        }
+   
+       
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sit porro aliquam ullam harum laudantium, laboriosam culpa, non odio voluptatum magni. Eum consequuntur impedit explicabo reiciendis fugiat dolore. Dolore at dolorem dignissimos odit, ipsa assumenda laborum harum eius voluptatibus distinctio praesentium suscipit nam sapiente nemo maxime. Deserunt expedita eaque rerum.</p>
+        </div>
+        <div class="food">
+            <img src="food.jpg" alt="">
+            <p>Dolor labore fugiat fuga earum sint harum excepturi rerum delectus quisquam sit, consequuntur, rem facilis autem exercitationem amet quae! Soluta sit nemo praesentium esse corrupti quas porro distinctio odit corporis deserunt dignissimos in rerum ipsa eaque doloremque neque vitae tempora assumenda, ducimus accusamus, molestias fugiat expedita. Accusamus molestias dicta ex!</p>
+        </div>
+        <div class="food">
+            <img src="food.jpg" alt="">
+            <p>Expedita voluptas molestiae magni perspiciatis maxime magnam quo nulla. Quibusdam nam eum amet, sed iusto asperiores est soluta aliquam voluptatum impedit explicabo natus aspernatur voluptas, excepturi fugiat id aliquid architecto quidem magnam? Ipsum tempora illum nulla minima, tenetur recusandae at labore quae alias reiciendis quam aliquam nesciunt error, exercitationem doloribus?</p>
+        </div>
+        <div class="food">
+            <img src="food.jpg" alt="">
+            <p>Placeat facilis a id ipsum delectus dolore corrupti rerum aut obcaecati numquam maxime, earum fuga amet enim labore tenetur dolorum consequatur veniam eum, velit corporis, deleniti sequi? Culpa cupiditate aliquam tempora eaque debitis? Veritatis corrupti iusto, quod doloremque laudantium deleniti. Repellendus dolores delectus harum quia, in cupiditate sunt tempora dignissimos?</p>
+        </div>
+        <div class="food">
+            <img src="food.jpg" alt="">
+            <p>Delectus quia et autem nobis veniam laudantium eveniet molestiae quaerat voluptatibus, commodi numquam voluptas nihil vel excepturi quod, quasi obcaecati? Magni nihil ad rem excepturi. Vero esse, temporibus dicta excepturi explicabo atque iusto. Delectus, eveniet quod at consequuntur ratione voluptate itaque, fugit veritatis explicabo tenetur accusantium quas dignissimos architecto quam.</p>
+        </div>
+        <div class="food">
+            <img src="food.jpg" alt="">
+            <p>Itaque nemo dignissimos facere dolores blanditiis explicabo quo distinctio culpa debitis ipsa dolorum et velit a, tenetur veniam? Ab, quas? Libero eos nam asperiores ullam, consectetur fugiat facere nobis! Error ipsam odio eum voluptate cum! Id possimus in deserunt repellendus asperiores tempora. Aliquid delectus iure autem quae harum saepe facere?</p>
+        </div>
+    </div>
+</body>
+</html>

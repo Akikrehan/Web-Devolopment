@@ -1,0 +1,8 @@
+.box{ width: 400px;
+      height: 200px;
+        border: 2px solid blue;
+        overflow-y : scroll;}
+.box2{ width:400px ;
+        height: 200px;
+        border: 2px solid green;
+        }

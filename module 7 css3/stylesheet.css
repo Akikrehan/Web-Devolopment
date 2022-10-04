@@ -1,0 +1,28 @@
+body{ background: url("road.jpg");
+        background-size: 100%;
+       background-repeat: no-repeat;
+    }
+.car{ 
+   
+    background: url("car.png");
+    margin-top: 29.5%;
+    height: 140px;
+    width: 160px;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation: car 8s ease 1s infinite normal ;
+    
+}
+@keyframes car {
+    0%{ left: 0px;}
+    100%{ left: 100%;}
+}
+.song:hover{ font-size: 5px;}
+.car2{ background: url("car2.png");
+    margin-top: 33%;
+    height: 140px;
+    width: 160px;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation: car 7s ease 1s infinite normal ;
+    }
