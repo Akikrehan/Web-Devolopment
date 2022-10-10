@@ -1,0 +1,97 @@
+.bg{ height: 576px;
+  
+    background-color: rgba(240, 255, 241, 1);}
+.container{ margin-bottom: 70px;
+text-transform: capitalize;}
+#logo{ width: 20%;
+}
+#btn1{
+    border-color: #04AA6D;
+            color: green;
+            font-size: 17px;
+            border-radius: 21px;
+            padding: 7px 25px;
+            font-weight: 600; 
+            margin-bottom: 20px;
+  
+}
+.txt-color{ color: rgba(253, 81, 26, 1);}
+.learn-text{ font-size: 55px;
+            font-weight: bold;}
+span{ color: rgba(33, 181, 115, 1);}
+p{color: rgba(108, 107, 107, 1);}
+#btn2{ border-color: #04AA6D;
+    color: green;
+    font-size: 17px;
+     margin-top: 10px;
+     border-radius: 21px;
+     padding: 10px 35px;
+     font-weight: 600; }
+#btn1:hover{ 
+    background-color:rgba(33, 181, 115, 1); ;
+    color: white;
+}
+#btn2:hover{ 
+    background-color:rgba(33, 181, 115, 1); ;
+    color: white;
+}
+.cat{ height: 270px;
+        width: 270px;
+        background-color: rgba(248, 255, 251, 1);
+        border: none;
+        border-radius: 5px;}
+#card-special{ background-color: #fff;
+                box-shadow: 1px  1px  18px gray;}
+#img-card{  background-color: #fff;
+    padding: 10px 10px;
+    border: none;
+    box-shadow: 1px 1px 18px gray;
+    border-radius: 12px;
+
+}
+.card-footer{ 
+    background-color: white;
+    border: none;
+}
+#btn3{  border-color: #04AA6D;
+    color: green;
+    font-size: 17px;
+     margin-top: 10px;
+     border-radius: 19px;
+     padding: 6px 27px;
+     font-weight: 600;
+
+}
+#btn3:hover{ 
+    background-color:rgba(33, 181, 115, 1); ;
+    color: white;}
+.icon-img{
+    height: 24px;
+    width: 24px;
+    position: relative;
+    
+}
+#soto-img{ position: absolute;}
+.courses-txt{ text-align: center ;
+                color: rgba(65, 57, 96, 1);
+                margin-bottom: 40px;}
+.man-img{ 
+    width: 24%;
+   margin-left: 70%;
+   position: relative;
+
+}
+.last-part{ 
+    height: 369px;
+    background-color: rgba(40, 37, 49, 1);
+}
+h6{ color: white;}
+li{ color: white;
+    list-style: none;}
+.last-text{ color: white;
+            margin-left: 30%;}
+#gap{ 
+    margin-top: 5%;
+}
+
+      
