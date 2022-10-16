@@ -1,0 +1,11 @@
+body{ font-family: Poppins;
+            text-transform: capitalize;
+        background-color: rgba(243, 241, 255, 1);}
+.brand-logo{ width: 40px;}
+
+.player img{ width: 56px;
+            }
+.player-text{ padding-left: 15px;}
+main{ max-width: 870px;
+        }
+.top-player{ background-color: #fff;}
